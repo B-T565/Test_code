@@ -6,6 +6,7 @@
 }
 body{
     background-color: #F5FFFA;
+    overflow-x: hidden;
 }
 @font-face{
     font-family: "Kantumruy";
@@ -326,8 +327,7 @@ input[type=password] {
 
     .box .from-contact .box_user1 p{
         font-size: 14px;
-        margin-top: 7px;
-        margin-left: 2px;
+        margin-left: 1px;
     }
     .box .icon_logo img{
         padding: 1px;
