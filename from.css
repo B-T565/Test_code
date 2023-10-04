@@ -63,9 +63,6 @@ body{
 }
 
 .box_user {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: 25px;
     border-radius: 5px 0 0 5px;
 }
@@ -73,6 +70,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 6px;
     font-size: 15px;
     color: #006400;
 }
@@ -232,13 +230,13 @@ input[type=password] {
 }
 
 .txt_right {
-    width: 200px;
+    width: 230px;
     position: absolute;
     top: 56%;
     right: 15%;
 }
 .txt_right p{
-    margin-left: 60px;
+    margin-left: 76px;
 }
 
 .txt_right:hover {
@@ -251,14 +249,15 @@ input[type=password] {
     height: 100%;
     background-color: #00eb958f;
     border: 1px solid #006400;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 5px 5px 5px 5px;
+    display: flex;
 }
 
-.box_user1 p {
+.box_user1 p, i {
     font-size: 15px;
     color: #006400;
-    margin-left: 5px;
-    margin-top: 5px;
+    margin-left: 8px;
+    margin-top: 6px;
 }
 
 /* Responsive Screen */
